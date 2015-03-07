@@ -1,0 +1,2 @@
+What type of data do you want to generate?
+1: Array

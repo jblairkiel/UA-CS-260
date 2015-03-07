@@ -1,0 +1,25 @@
+#!/bin/ksh
+
+# Linux script for testing your Python program
+
+# First cd to the directory that contains your Python program lab1.py
+# Next enter the following command to run the script:
+# /projects/lab1/script1.txt
+
+rm -f output*.txt
+rm -f checksums.txt
+
+for f in *.py; do
+  echo $f >> checksums.txt
+  /projects/checksum.exe < $f >> checksums.txt
+done
+
+for k in {0..3}; do
+  python lab1.py < /projects/lab1/input$k.txt > output$k.txt
+  echo diff output$k.txt /projects/lab1/output$k.txt
+  diff -i -w output$k.txt /projects/lab1/output$k.txt
+  echo output$k.txt >> checksums.txt
+  /projects/checksum.exe < output$k.txt >> checksums.txt
+done
+
+# Submit the file "checksums.txt" along with your Python program

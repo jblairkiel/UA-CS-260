@@ -1,0 +1,2 @@
+sum = 86
+product = 1728

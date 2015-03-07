@@ -1,0 +1,2 @@
+cred_hrs,descend,int
+qual_pts,descend,int

@@ -1,0 +1,8 @@
+number = 12
+minimum = 2
+maximum = 19
+sum = 105
+product = 26839612800
+average = 8.75
+median = 7.5
+modes = [7]
