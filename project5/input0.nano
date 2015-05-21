@@ -1,0 +1,28 @@
+@ a,b,c,d,e,f;
+a = 9;
+b = 2;
+c = 1;
+d = 0;
+e = 0;
+f = 3;
+{ @ a, c, e, g, h;
+ a = 2;
+ b = d;
+ d = f;
+ f = b;
+ ? f;
+ c = 8;
+ e = 6;
+ g = 3;
+ h = a * c - e / g + 5;
+ { @ f, b,c,a;
+ ? h;
+ f = 8;
+ b = 9 * g ^ f;
+ c = b * h - a;
+ a = 1 * c * b;
+ ? f,b,c,a,h,d,f,g;
+ }
+ ? f,b,c,a,h,d,f,g;
+}
+? f,b,c,a,d,f;

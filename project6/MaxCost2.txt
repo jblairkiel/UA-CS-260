@@ -1,0 +1,20 @@
+Loss = -15.00
+Loss = -7.50
+Gain = 10.00
+Gain = 175.00
+Loss = -63.75
+Gain = 182.50
+Gain = 50.00
+Gain = 55.00
+Loss = -11.25
+Zero
+Gain = 10.00
+Zero
+Gain = 52.50
+Zero
+Loss = -1.25
+Loss = -281.25
+Gain = 106.25
+Loss = -18.75
+Gain = 25.00
+Total = 267.50
